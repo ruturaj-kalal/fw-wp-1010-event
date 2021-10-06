@@ -3,14 +3,14 @@
 * Template Name: FW Landing Page Template
 */
 
-get_header(); ?>
+get_header(); 
+futurio_generate_header(true, true, true, true, true, true);
+?>
 
- 
 <!-- Google Tag Manager (noscript) -->
 	<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-KBQTM98"
 	height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 <!-- End Google Tag Manager (noscript) -->
-<body>
 	<div id="event-landing-page">
 		<div class="fw-section-spacing">
 			<div class="first-section-top-right">
@@ -156,7 +156,6 @@ get_header(); ?>
 		endwhile; // End of the loop.
 		?>        
 	</div>
-	</body>
 <style>
 		#event-landing-page{
 			position: relative;
@@ -209,7 +208,7 @@ get_header(); ?>
 		#event-landing-page .first-section-bottom-left{
 			position: absolute;
 			bottom: 0;
-			left: 0;
+			left: -70px;
 			z-index: 1;
 		}
 		#event-landing-page .first-section-bottom-left .bottom-left-inner{
@@ -254,7 +253,7 @@ get_header(); ?>
 			z-index: 2;
 		}
 		#event-landing-page .common-section.landing-first-section .live-streaming-video-wrapper{
-			padding-bottom: 110px;
+			padding-bottom: 90px;
 		}
 		#event-landing-page .text-spacing h2, #event-landing-page .text-spacing h4{
 			text-transform: uppercase;
