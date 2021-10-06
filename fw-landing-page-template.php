@@ -353,13 +353,13 @@ get_header(); ?>
 			}
 		}
 		
-	div#page {
-       background: white;
-	}
-	.fw-wp-story {
-    	width: 283px;
-    	height: 477px;
-	}
+		div#page {
+		background: white;
+		}
+		.fw-wp-story {
+			width: 283px;
+			height: 477px;
+		}
 	</style>
 <?php
 get_footer();
